@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { addToRecord, getPokemon } from "../queries/pokemon.queries";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { IRootState } from "../store/store";
 import { Pokemon, PokemonWithProps } from "../types/pokemon.types";
 import "../css/viewPokemon.css";
