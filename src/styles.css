@@ -2,13 +2,3 @@ body {
   background-color: whitesmoke;
 }
 
-.ViewPokemon {
-  width: 300px;
-  max-width: 300px;
-  padding: 1rem;
-}
-
-.ViewPokemon img {
-  max-width: 300px;
-  max-height: 300px;
-}

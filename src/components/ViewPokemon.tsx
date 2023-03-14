@@ -4,6 +4,7 @@ import { addToRecord, getPokemon } from "../queries/pokemon.queries";
 import { useDispatch, useSelector } from "react-redux";
 import { IRootState } from "../store/store";
 import { Pokemon, PokemonWithProps } from "../types/pokemon.types";
+import "../css/viewPokemon.css";
 
 type ViewPokemonDetailProps = {
   selectedPokemon: Pokemon;
@@ -31,7 +32,7 @@ const ViewPokemonDetail: FC<ViewPokemonDetailProps> = ({
 
   return pokemon ? (
     <div className="ViewPokemon">
-      <h4>Pokemon: {pokemon.name}</h4>
+      <h4>Pokemon: <span>{pokemon.name}</span></h4>
       <h5>#{pokemon.id}</h5>
       <img src={pokemon.sprites.other.home.front_default} alt={pokemon.name} />
     </div>

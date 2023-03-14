@@ -1,0 +1,21 @@
+.ViewPokemon {
+  width: 300px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.ViewPokemon h4,h5{
+    margin: 0.5rem;
+}
+
+.ViewPokemon h4 span{
+    color: #202894;
+}
+
+.ViewPokemon img {
+  max-width: 9.5rem;
+  max-height: 9.5rem;
+}
