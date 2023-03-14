@@ -6,6 +6,7 @@ import { extractPokemonId } from "../services/pokemon.services";
 import { useDispatch, useSelector } from "react-redux";
 import { selectPokemon } from "../actions/pokemonActions";
 import { IRootState } from "../store/store";
+import "../css/listPokemon.css";
 
 /**
  * Visualices a list of pokemons

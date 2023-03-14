@@ -1,0 +1,21 @@
+.list {
+  min-width: 300px;
+  flex-direction: column;
+  overflow-y: auto;
+  border-right: 2px solid lightgrey;
+  align-items: flex-start;
+  text-align: left;
+  max-height: 700px;
+  padding: 0 0.5rem;
+}
+
+.list div {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.list div:hover {
+  cursor: pointer;
+  background-color: #8089fb;
+  border-radius: 0.5rem;
+}

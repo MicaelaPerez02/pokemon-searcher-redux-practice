@@ -31,5 +31,12 @@
   font-size: 0.9rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
+  border-color: white;
   cursor: pointer;
+  background-color: #202894;
+  color: white;
+}
+
+#findPokemon button:hover {
+  background-color: #3745ff;
 }
