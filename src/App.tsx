@@ -12,13 +12,11 @@ export default function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <img src={Pokedex} alt="Logo Pokedex" className="logoPokedex"/>
+        <img src={Pokedex} alt="Logo Pokedex" className="logoPokedex" />
         <div id="bandejaDeEntrada">
-          <div
-            style={{ display: "flex", flexDirection: "column", flexGrow: 1 }}
-          >
+          <div className="pokedex" >
             <FindPokemon />
-            <div style={{ display: "flex", flexDirection: "row" }}>
+            <div className="pokedexInfo">
               <ListPokemon />
               <ViewPokemon />
               <RecordPokemon />

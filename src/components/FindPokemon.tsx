@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { findPokemon } from "../actions/pokemonActions";
+import "../css/findPokemon.css";
 
 const FindPokemon = () => {
   const [text, setText] = useState<string>("");

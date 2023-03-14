@@ -2,35 +2,7 @@ body {
   background-color: whitesmoke;
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
 
-/*APP.TSX STYLES*/
-
-
-#findPokemon {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  padding: 10px 20px;
-}
-
-#findPokemon input {
-  margin-left: 20px;
-  height: 30px;
-  font-size: 14px;
-  padding: 4px 8px;
-  flex-grow: 1;
-}
-
-#findPokemon button {
-  margin-left: 20px;
-  height: 30px;
-  font-size: 14px;
-  padding: 4px 8px;
-}
 
 .list {
   min-width: 300px;

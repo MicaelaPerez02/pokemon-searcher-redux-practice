@@ -1,0 +1,35 @@
+#findPokemon {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0.6rem 1.5rem;
+}
+
+#findPokemon label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#findPokemon input {
+  margin-left: 1.25rem;
+  height: 1.8rem;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+#findPokemon input:focus {
+  outline: none;
+  border: none;
+}
+
+#findPokemon button {
+  margin-left: 1.25rem;
+  height: 1.8rem;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

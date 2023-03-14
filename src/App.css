@@ -3,20 +3,35 @@ body {
 }
 
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; 
 }
 
 #bandejaDeEntrada {
+  max-width: 60rem;
+  height: auto;
   display: flex;
-  border: 2px solid black;
-  border-radius: 12px;
-  background-color: #ff827a;
-  max-width: 950px;
-  margin-left: auto;
-  margin-right: auto;
+  border: 0.3rem solid #202894;
+  border-radius: 1rem;
+  background: rgb(255, 206, 52);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 206, 52, 1) 47%,
+    rgba(255, 255, 255, 1) 79%
+  );
+  margin: 1rem auto;
 }
 
-.logoPokedex{
+.logoPokedex {
   width: 15rem;
+}
+
+.pokedex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 1;
+}
+
+.pokedexInfo{
+  display: flex;
 }
