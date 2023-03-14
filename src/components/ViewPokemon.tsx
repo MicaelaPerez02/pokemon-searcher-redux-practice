@@ -13,7 +13,6 @@ type ViewPokemonDetailProps = {
 const ViewPokemonDetail: FC<ViewPokemonDetailProps> = ({
   selectedPokemon,
 }: ViewPokemonDetailProps) => {
-  const dispatch = useDispatch();
   const [isLoading, setLoading] = useState<boolean>(false);
   const [pokemon, setPokemon] = useState<PokemonWithProps | null>(null);
 
