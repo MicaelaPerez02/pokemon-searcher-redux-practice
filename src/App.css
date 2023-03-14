@@ -11,5 +11,12 @@ body {
   display: flex;
   border: 2px solid black;
   border-radius: 12px;
-  background-color: wheat;
+  background-color: #ff827a;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoPokedex{
+  width: 15rem;
 }
