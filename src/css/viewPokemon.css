@@ -18,4 +18,5 @@
 .ViewPokemon img {
   max-width: 9.5rem;
   max-height: 9.5rem;
+  padding-bottom: 0.5rem;
 }

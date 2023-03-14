@@ -2,11 +2,10 @@
   min-width: 300px;
   flex-direction: column;
   overflow-y: auto;
-  border-right: 2px solid lightgrey;
   align-items: flex-start;
-  text-align: left;
+  text-align: center;
   max-height: 700px;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 .list div {

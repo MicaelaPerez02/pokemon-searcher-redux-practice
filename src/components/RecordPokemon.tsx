@@ -3,6 +3,7 @@ import { PokemonWithProps } from "../types/pokemon.types";
 import { useDispatch } from "react-redux";
 import { selectPokemon } from "../actions/pokemonActions";
 import { clearFromRecord, fetchRecord } from "../queries/pokemon.queries";
+import "../css/recordPokemon.css";
 
 const RecordPokemon = () => {
   const [pokemons, setPokemons] = useState<PokemonWithProps[]>([]);
@@ -28,10 +29,10 @@ const RecordPokemon = () => {
   };
 
   return (
-    <div className="list">
-      <h3>Record</h3>
-      <button onClick={() => refresh()}>Update</button>
-      <button onClick={() => clear()}>Clean</button>
+    <div className="listRecord" id="RecordPokemon">
+      <h3>My pokemons</h3>
+      <button onClick={() => refresh()}>Save</button>
+      <button onClick={() => clear()}>Clear</button>
       {pokemons &&
         pokemons.map((pokemon: PokemonWithProps) => (
           <div

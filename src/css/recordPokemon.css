@@ -1,0 +1,24 @@
+#RecordPokemon button {
+  height: 1.8rem;
+  margin: 0.5rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  border-color: white;
+  cursor: pointer;
+  background-color: #202894;
+  color: white;
+}
+
+#recordPokemon button:hover {
+  background-color: #3745ff;
+}
+
+.listRecord {
+  min-width: 300px;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: flex-start;
+  text-align: center;
+  max-height: 700px;
+  padding-bottom: 1rem;
+}
